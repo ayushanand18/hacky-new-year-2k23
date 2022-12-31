@@ -1,7 +1,7 @@
 {
-  "name": "Hacky New Year 2k23",
-  "description": "Hackathon demo projetc for Hacky New Year 2023",
-  "repository": "https://github.com/MLH/mlh-hackathon-nodejs-starter.git",
+  "name": "Shizen",
+  "description": "Know about animals and help us conserve them.",
+  "repository": "https://github.com/ayushanand18/hacky-new-year-2k23",
   "logo": "https://avatars1.githubusercontent.com/u/5752708?s=100",
   "keywords": ["nodejs", "javascript"]
 }
