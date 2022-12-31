@@ -1,5 +1,4 @@
-const auth = require("./auth");
-const tutorial = require("./tutorial");
 const home = require("./home");
+const chat = require("./chat");
 
-module.exports = { auth, tutorial, home };
+module.exports = { chat, home};
