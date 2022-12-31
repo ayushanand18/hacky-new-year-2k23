@@ -2,8 +2,8 @@ const controllers = require("./controllers");
 const config = require("../config");
 
 module.exports.registerRoutes = app => {
-  app.use("/chat", controllers.chat);
   app.use("/", controllers.home);
+  app.use("/chat", controllers.chat);
 };
 
 module.exports.registerErrorHandlers = app => {
