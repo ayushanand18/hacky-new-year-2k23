@@ -4,6 +4,7 @@ const config = require("../config");
 module.exports.registerRoutes = app => {
   app.use("/", controllers.home);
   app.use("/chat", controllers.chat);
+  app.use("/cohere", controllers.cohere);
 };
 
 module.exports.registerErrorHandlers = app => {
