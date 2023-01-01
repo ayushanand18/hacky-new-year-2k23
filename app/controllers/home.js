@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const config = require('../../config');
 const cohere = require('cohere-ai');
-const animalConfig = require('../static/js/animal-script.js');
+const animalConfig = require('./animal-script.js');
 
 cohere.init(config.cohereKey);
 

@@ -7,10 +7,71 @@
   </div>
 </div>
 
-<div class="text-gray-light text-center py-5 my-5">
+<div class="text-center py-5 my-5">
   <div style="max-width:800px; margin-left:auto; margin-right:auto; padding: 10px">
-    <div class="container">
-      the box
+    <div class="chat-box container">
+      <table>
+        <tr>
+          <div class="response-space">
+            <div id="_1">
+              Hey there, this is Shizen! I can help you know more about animals, adorable cute and skunky!
+              Would you like to explore?
+              <br/>
+              <a href="#" class="btn btn-primary">Yes! I'm in</a>
+            </div>
+            <!-- 2 -->
+            <div id="_2">
+              Wow, amazing. Let me tell you about myself. I am Shizen, and AI powered chatbot built
+              with <a href="cohere.ai">Cohere</a>. You can talk to me about what you like, what you do
+              I'll find an animal for you that matches what you love! I'll also tell you some interesting
+              facts about it and you if you are curious enought then send you resources where you can read 
+              more about it. <br/>
+              Before we start, can you tell me your name? (Your details are never sent anywhere - we don't process them.) Press Next when you are done.
+              <br/>
+              <a href="#" class="btn btn-primary">Next</a>
+            </div>
+            <!-- 3 -->
+            <div id="_3">
+              Thanks, {{user.name}}! Did I forget to tell you that I can also help you 
+              know what threats does that animal face and how you can help to conserve it?
+              <br/>
+
+              So, what do you like the most? It can anything e.g. a person you like the most,
+              then describe about them, or a place that you like the most then explain about it 
+              or a food that you cherish then detail about that.
+              <br/>
+              <a href="#" class="btn btn-primary">Next</a>
+            </div>          
+            <!-- 4 -->
+            <div id="_4">
+              Great! Can you tell me more about your hobbies?
+              <br/>
+              Do you love to play a sport? If yes, then why and how does it help you?
+              <br/>
+              <a href="#" class="btn btn-primary">Next</a>
+            </div>
+            <!-- 5 -->
+            <div id="_5">
+              Awesome! Now the last question. Do you love animals? If yes, then which animal 
+              (it can be both land or aquatic.) And what interests you about it?
+              <br/>
+              <a href="#" class="btn btn-primary">Next</a>
+            </div>
+            <!-- 6 -->
+            <div id="_6">
+              Thank you so much for the response!
+              We made out that you like 
+              <br/>
+              <a href="#" class="btn btn-primary">Next</a>
+            </div>
+          </div>
+        </tr>
+        <tr>
+          <div class="query-space">
+            <input type="text" class="form-control" onchange=handleChange() placeholder="Type your response.">
+          </div>
+        </tr>
+    </table>
     </div>
   </div>
 </div>

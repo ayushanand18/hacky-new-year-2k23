@@ -88,5 +88,4 @@ const intent_examples = [
     {text:"The pink see-through Fantasia is described for its transparent skin, through which its mouth, anus, & intestines are all visible",label:"10"},
     {text:"Just like other bioluminescent beings, this species can emit light. When in peril, it uses that light to frighten potential predators.",label:"10"}
 ]
-
 module.exports = {animals, animal_characteristics, intent_examples}
