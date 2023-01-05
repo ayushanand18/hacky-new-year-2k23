@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Set up handlebars templating engine for layout files.
 app.engine("html", handlebars({ defaultLayout: "layout", extname: ".html" }));
-app.set("views", "app/templates");
+app.set("views", "./app/templates");
 app.set("view engine", "html");
 
 // Set up the routes for the static assets.
