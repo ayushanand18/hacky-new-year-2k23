@@ -1,8 +1,8 @@
 <div class="bg-gray-light border-bottom border-gray-light">
   <div class="container text-center py-5 mb-4">
     <div class="mt-3 mb-4">
-      <h1 class="h1 mb-0"> Chat with Hacky </h1>
-      <h2 class="h4 text-gray font-weight-light">Chat below</h2>
+      <h1 class="h1 mb-0"> Chat with Shizen </h1>
+      <h2 class="h4 text-gray font-weight-light">Chat below and get your animal to save!</h2>
     </div>
   </div>
 </div>
@@ -26,13 +26,16 @@
               I'll find an animal for you that matches what you love! I'll also tell you some interesting
               facts about it and you if you are curious enought then send you resources where you can read 
               more about it. <br/>
-              Before we start, can you tell me your name? (Your details are never sent anywhere - we don't process them.) Press Next when you are done.
+              <strong>
+                Before we start, can you tell me your name? 
+              </strong> 
+              (Your details are never sent anywhere - we don't process them.) Press Next when you are done.
               <br/>
               <a href="#" class="btn btn-primary">Next</a>
             </div>
             <!-- 3 -->
             <div id="_3">
-              Thanks, {{user.name}}! Did I forget to tell you that I can also help you 
+              Thanks, <span id="userName"></span>! Did I forget to tell you that I can also help you 
               know what threats does that animal face and how you can help to conserve it?
               <br/>
 
@@ -60,15 +63,80 @@
             <!-- 6 -->
             <div id="_6">
               Thank you so much for the response!
-              We made out that you like 
+              After analysing all your responses, we have predicted that you would like 
+                <b><span id="animalResult">loading...</span></b>
               <br/>
-              <a href="#" class="btn btn-primary">Next</a>
+              <a href="#" class="btn btn-primary">See it!</a>
             </div>
+
+            <!-- More information about the animal -->
+            <!-- 7 -->
+            <div id="_7">
+              <h5 class="animalName"></h5>
+              <img src="#" id="animalImage">
+              
+              <br/>
+              <a href="#" class="btn btn-primary">Know some fun facts</a>
+            </div>
+
+            <!-- 8 -->
+            <div id="_8">
+              <h5 class="animalName"></h5>
+              <div class="alert infos alert-success">
+                <strong>Fun Fact:</strong><br/>
+                <span id="funFactAni"></span>
+              </div>
+              
+              <br/>
+              <a href="#" class="btn btn-primary">What threats it faces?</a>
+            </div>
+            <!-- 9 -->
+            <div id="_9">
+              <h5 class="animalName"></h5>
+              <div class="alert infos alert-danger">
+                <strong>Threats:</strong><br/>
+                <span id="threatsAni"></span>
+              </div>
+              
+              <br/>
+              <a href="#" class="btn btn-primary">Know what you can do</a>
+            </div>
+            <!-- 10 -->
+            <div id="_10">
+              <h5 class="animalName"></h5>
+              <div class="alert infos alert-info">
+                <strong>How to conserve:</strong><br/>
+                <span id="conserveAni"></span>
+              </div>
+              
+              <br/>
+              <a href="#" class="btn btn-primary">Further Reading</a>
+            </div>
+            <!-- 11 -->
+            <div id="_11">
+              <h5 class="animalName"></h5>
+              <div class="alert infos alert-info">
+                <strong>Further Reading:</strong><br/>
+                <span id="furtherReading"></span>
+              </div>
+              
+              <br/>
+              <a href="#" class="btn btn-primary">Thanks!</a>
+            </div>
+
+          </div>
+        </tr>
+        
+        <!-- The Note div -->
+        <tr>
+          <div class="alert alert-info" id="infoDiv">
+            Please enter your answer for the question above and press Next button when you are done.
+            Try to be as descriptive as possible (in your answers approx. 20 words) so that we find the best animal. Thanks!
           </div>
         </tr>
         <tr>
           <div class="query-space">
-            <input type="text" class="form-control" onchange=handleChange() placeholder="Type your response.">
+            <input type="text" class="form-control" id="inputField" placeholder="Type your response.">
           </div>
         </tr>
     </table>

@@ -24,10 +24,26 @@
 .chat-box .response-space{
   text-align: justify;
 }
+
 .chat-box .btn{
   margin-left: auto;
   margin-right: auto;
 }
+
 .chat-box div{
   padding: 10px 0px 10px 0px;
+}
+
+#infoDiv{
+  padding: 5px 0px 5px 10px;
+  text-align: left;
+}
+
+#animalImage{
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.infos{
+  padding: 10px 5px 10px 10px !important;
 }

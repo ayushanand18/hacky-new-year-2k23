@@ -20,7 +20,7 @@ const animal_characteristics = {
     },
     "4":{
         "name": "Red Kangaroo",
-        "photo": "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/https://cosmosmagazine.com/wp-content/uploads/2022/08/GettyImages-520278958-red-kangaroo.-Credit-Jami-Tarris.jpg",
+        "photo": "https://cosmosmagazine.com/wp-content/uploads/2022/08/GettyImages-520278958-red-kangaroo.-Credit-Jami-Tarris.jpg",
         "fun_fact": "A red kangaroo can reach speeds of over 35 miles an hour. Their bounding gait allows them to cover 25 feet in a single leap and to jump 6 feet high.",
         "threats": "The Red Kangaroo prefers sparsely wooded or open plains. They inhabit grassland, shrubland, desert, woodland and open forest, and are most common in open savanna woodland. They are vulnerable to wildfires, and climate change",
         "conserve": "Urbanization, especially road building, adversely impacts kangaroos. Steps to conserve them include national programmes, and setting up physical structures to block kangaroos from roads in kangaroo hotspots.",
