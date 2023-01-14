@@ -3,7 +3,7 @@
 Shizen in Japanese means "Nature". Shizen helps you know more about animals that are facing increased
 threat due to anthropogenic activities. 
 ## Live demo
-[https://shizen.eu-gb.cf.appdomain.cloud/](https://shizen.eu-gb.cf.appdomain.cloud/)
+[https://shizenapp.co](https://shizenapp.co/)
 
 # Installation
 This project requires the following tools:
